@@ -1,4 +1,4 @@
-# Transbank SDK Android Onepay
+# Transbank SDK iOS Onepay
 
 ## Instalación
 
