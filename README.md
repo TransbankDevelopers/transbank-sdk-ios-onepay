@@ -2,7 +2,7 @@
 
 ## Instalación
 
-- Descarga el SDK desde desde [la página de releases](https://github.com/TransbankDevelopers/transbank-sdk-ios-onepay/releases). Para comenzar el desarrollo puedes usar la versión para ambiente de Test (y luego deberás compilar contra la versión de Producción para tu app productiva)
+- Descarga el SDK como binario en un archivo `.framework` desde desde [la página de releases](https://github.com/TransbankDevelopers/transbank-sdk-ios-onepay/releases). Para comenzar el desarrollo puedes usar la versión para ambiente de Test (y luego deberás compilar contra la versión de Producción para tu app productiva)
 - Descomprime el archivo `.zip` para quedar con el directorio `.framework`.
 - Arrastra `OnePaySDK` a la sección "Embedded Binaries" en la configuración "General" de tu proyecto. Marca la casilla "Copy items if needed" y haz click en "Finish"
 
