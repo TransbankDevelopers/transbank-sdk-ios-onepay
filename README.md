@@ -49,7 +49,8 @@ onepay.initPayment("occ",
             os_log("Onepay no instalado")
         }
     }
-)```
+)
+```
 
 Si todo funciona OK, el control pasará a la app Onepay donde el usuario podrá autorizar la transacción.
 
