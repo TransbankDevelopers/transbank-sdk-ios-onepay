@@ -1,0 +1,13 @@
+language: objective-c
+script: echo "We don't have tests yet :("
+before_deploy:
+- sh package.sh
+deploy:
+  provider: releases
+  api_key:
+    secure: ivN566di+num4BlF8AaAP5MPNlaUmGeoIyWI+oRe6e7/7ksnCt4uCI5uaTTJcg+2m3ODEnWVkg/QQ+ET1kuXA42Vnkc4GuTu6ktN59Gj6OCXNlaSOYOFiI/l97+pvQqtBHzV9YT7Faf+Uhv1KCJTNTEWT/B+3XnGsp8jdDbd2oznFtsMKNqkH284wA7tLTqz7zkFDI/md5kkHpB+bxuREj9s30Dq2AGkD5+MJ+eDChYKLBgx4TGi0tt9X+h4/2s5oQNtncEMLI6HmN2qTnHtFn3+Q3YSAKP8v5vs3YFCnRGOVexpgTbdRGd6o3ZEqTpXMs0mrzwegsHU0lMEqEZH4epmHBmzxu53wvyc+jGupYNAAqCJJyG1pFUOfnFVnDLZJVSAlG0+KVXdwFTppjxaeGUs7pUZPK/j56FqK1eY3zpqPBfHNutX/m0ipUiIU4FTu2QdUJJ9iAq7ScVIWYhB4cEQ78Yw1Iz4LFDcR0+YlL/TeDgX/wmliPTvQ0adxhwgYhA6uPSM3Y3t16mvsSmR/7g3vxBkHQ38fL8gzpQxhjzmzHvEF5Z7Khg7sFnMfHsZYeJ6nAvBiZESqFbJy/9IUdg+BS4275tp8fBVJshdN3m7LpvcyFrThu5//ZY81MqGeGZF3mrSxxOngemalIZEFpwO1o63dgX2vmrCV/JzTE0=
+  file: "sdk-ios-onepay-$TRAVIS_TAG.zip"
+  skip_cleanup: true
+  on:
+    repo: TransbankDevelopers/transbank-sdk-ios-onepay
+    tags: true

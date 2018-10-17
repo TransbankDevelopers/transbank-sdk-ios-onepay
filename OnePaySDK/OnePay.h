@@ -39,12 +39,4 @@ typedef void(^FinishPaymentCallbackSuccess)(NSDictionary *result);
 
 -(BOOL) isOnePayInstalled;
 
--(void) finishPayment:(NSString *)occ
-                     :(NSString *)issuedAt
-                     :(NSString *)externalUniqueNumber
-                     :(NSString *)apiKey
-                     :(NSString *)sharedSecret
-              success:(FinishPaymentCallbackSuccess)success
-              failure:(FinishPaymentCallbackFail)failure;
-
 @end

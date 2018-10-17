@@ -10,23 +10,14 @@
 		BC347B342078080700C2BC50 /* OnePaySDK.h in Headers */ = {isa = PBXBuildFile; fileRef = BC347B322078080700C2BC50 /* OnePaySDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC347B3C2078081800C2BC50 /* OnePay.m in Sources */ = {isa = PBXBuildFile; fileRef = BC347B3A2078081800C2BC50 /* OnePay.m */; };
 		BC347B3D2078081800C2BC50 /* OnePay.h in Headers */ = {isa = PBXBuildFile; fileRef = BC347B3B2078081800C2BC50 /* OnePay.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC347B422078082800C2BC50 /* GetTransactionNumberResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = BC347B3E2078082700C2BC50 /* GetTransactionNumberResponse.m */; };
-		BC347B432078082800C2BC50 /* GetTransactionNumberRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = BC347B3F2078082800C2BC50 /* GetTransactionNumberRequest.h */; };
-		BC347B442078082800C2BC50 /* GetTransactionNumberRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BC347B402078082800C2BC50 /* GetTransactionNumberRequest.m */; };
-		BC347B452078082800C2BC50 /* GetTransactionNumberResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = BC347B412078082800C2BC50 /* GetTransactionNumberResponse.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7CF7D1DA207E964D00EE60C7 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		BC347B2F2078080700C2BC50 /* OnePaySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OnePaySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC347B322078080700C2BC50 /* OnePaySDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OnePaySDK.h; sourceTree = "<group>"; };
 		BC347B332078080700C2BC50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC347B3A2078081800C2BC50 /* OnePay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnePay.m; sourceTree = "<group>"; };
 		BC347B3B2078081800C2BC50 /* OnePay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnePay.h; sourceTree = "<group>"; };
-		BC347B3E2078082700C2BC50 /* GetTransactionNumberResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetTransactionNumberResponse.m; sourceTree = "<group>"; };
-		BC347B3F2078082800C2BC50 /* GetTransactionNumberRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetTransactionNumberRequest.h; sourceTree = "<group>"; };
-		BC347B402078082800C2BC50 /* GetTransactionNumberRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetTransactionNumberRequest.m; sourceTree = "<group>"; };
-		BC347B412078082800C2BC50 /* GetTransactionNumberResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetTransactionNumberResponse.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,15 +50,10 @@
 		BC347B312078080700C2BC50 /* OnePaySDK */ = {
 			isa = PBXGroup;
 			children = (
-				BC347B3F2078082800C2BC50 /* GetTransactionNumberRequest.h */,
-				BC347B402078082800C2BC50 /* GetTransactionNumberRequest.m */,
-				BC347B412078082800C2BC50 /* GetTransactionNumberResponse.h */,
-				BC347B3E2078082700C2BC50 /* GetTransactionNumberResponse.m */,
 				BC347B3B2078081800C2BC50 /* OnePay.h */,
 				BC347B3A2078081800C2BC50 /* OnePay.m */,
 				BC347B322078080700C2BC50 /* OnePaySDK.h */,
 				BC347B332078080700C2BC50 /* Info.plist */,
-				7CF7D1DA207E964D00EE60C7 /* Constants.h */,
 			);
 			path = OnePaySDK;
 			sourceTree = "<group>";
@@ -81,8 +67,6 @@
 			files = (
 				BC347B3D2078081800C2BC50 /* OnePay.h in Headers */,
 				BC347B342078080700C2BC50 /* OnePaySDK.h in Headers */,
-				BC347B452078082800C2BC50 /* GetTransactionNumberResponse.h in Headers */,
-				BC347B432078082800C2BC50 /* GetTransactionNumberRequest.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,8 +139,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC347B3C2078081800C2BC50 /* OnePay.m in Sources */,
-				BC347B422078082800C2BC50 /* GetTransactionNumberResponse.m in Sources */,
-				BC347B442078082800C2BC50 /* GetTransactionNumberRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
