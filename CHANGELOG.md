@@ -10,4 +10,4 @@ y este proyecto adhiere a [Semantic Versioning](http://semver.org/spec/v2.0.0.ht
 
 ## [1.0.0] - 2018-09-16
 ### Added
-- Primera versión funcional del SDK Android para Onepay
+- Primera versión funcional del SDK iOS para Onepay
