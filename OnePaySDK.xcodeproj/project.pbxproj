@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6FC1228721F90C1F00501A54 /* QROnepayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FC1228521F90C1F00501A54 /* QROnepayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FC1228821F90C1F00501A54 /* QROnepayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC1228621F90C1F00501A54 /* QROnepayView.m */; };
 		BC347B342078080700C2BC50 /* OnePaySDK.h in Headers */ = {isa = PBXBuildFile; fileRef = BC347B322078080700C2BC50 /* OnePaySDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC347B3C2078081800C2BC50 /* OnePay.m in Sources */ = {isa = PBXBuildFile; fileRef = BC347B3A2078081800C2BC50 /* OnePay.m */; };
 		BC347B3D2078081800C2BC50 /* OnePay.h in Headers */ = {isa = PBXBuildFile; fileRef = BC347B3B2078081800C2BC50 /* OnePay.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6FC1228521F90C1F00501A54 /* QROnepayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QROnepayView.h; sourceTree = "<group>"; };
+		6FC1228621F90C1F00501A54 /* QROnepayView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QROnepayView.m; sourceTree = "<group>"; };
 		BC347B2F2078080700C2BC50 /* OnePaySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OnePaySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC347B322078080700C2BC50 /* OnePaySDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OnePaySDK.h; sourceTree = "<group>"; };
 		BC347B332078080700C2BC50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +58,8 @@
 				BC347B3A2078081800C2BC50 /* OnePay.m */,
 				BC347B322078080700C2BC50 /* OnePaySDK.h */,
 				BC347B332078080700C2BC50 /* Info.plist */,
+				6FC1228521F90C1F00501A54 /* QROnepayView.h */,
+				6FC1228621F90C1F00501A54 /* QROnepayView.m */,
 			);
 			path = OnePaySDK;
 			sourceTree = "<group>";
@@ -67,6 +73,7 @@
 			files = (
 				BC347B3D2078081800C2BC50 /* OnePay.h in Headers */,
 				BC347B342078080700C2BC50 /* OnePaySDK.h in Headers */,
+				6FC1228721F90C1F00501A54 /* QROnepayView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC347B3C2078081800C2BC50 /* OnePay.m in Sources */,
+				6FC1228821F90C1F00501A54 /* QROnepayView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
