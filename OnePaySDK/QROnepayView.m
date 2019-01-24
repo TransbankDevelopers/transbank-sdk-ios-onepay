@@ -1,9 +1,3 @@
-//
-//  QROnepayView.m
-//
-//  Created by Rodrigo Ayala on 1/23/19.
-//
-
 #import "QROnepayView.h"
 
 @implementation QROnepayView
@@ -35,18 +29,15 @@ NSData *_data;
 
 - (UIImage *)getQRImage {
     UIImage *r = nil;
-    @try {
-        CIImage *src = [self getCIImage];
-        if (!src || src == nil) { return nil; }
-        
-        CGRect imageSize = CGRectIntegral(src.extent);
-        CGSize outputSize = CGSizeMake(200.0f, 200.0f);
-        CIImage *imageByTransform = [src imageByApplyingTransform:CGAffineTransformMakeScale(outputSize.width/CGRectGetWidth(imageSize), outputSize.height/CGRectGetHeight(imageSize))];
-        
-        r = [UIImage imageWithCIImage:imageByTransform];
-    } @catch (NSException *exception) {
-        NSLog(@"Error: %@", exception.reason);
-    }
+
+    CIImage *src = [self getCIImage];
+    if (!src || src == nil) { return nil; }
+
+    CGRect imageSize = CGRectIntegral(src.extent);
+    CGSize outputSize = CGSizeMake(200.0f, 200.0f);
+    CIImage *imageByTransform = [src imageByApplyingTransform:CGAffineTransformMakeScale(outputSize.width/CGRectGetWidth(imageSize), outputSize.height/CGRectGetHeight(imageSize))];
+
+    r = [UIImage imageWithCIImage:imageByTransform];
     return r;
 }
 

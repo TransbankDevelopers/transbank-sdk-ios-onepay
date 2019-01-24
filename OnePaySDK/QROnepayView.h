@@ -1,9 +1,3 @@
-//
-//  QROnepayView.h
-//
-//  Created by Rodrigo Ayala on 1/23/19.
-//
-
 #import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
