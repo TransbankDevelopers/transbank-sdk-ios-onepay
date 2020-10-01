@@ -12,7 +12,9 @@
 static NSString * const kScheme = @"onepay://";
 static NSString * const kAppStore = @"https://itunes.apple.com/cl/app/onepay-transbank/id1432114499?mt=8";
 
-// Homologar Implementación de android
+// Homologar Implementación de android 
+// 
+//Homologate Android Implementation
 @interface OnePay ()
 
 -(void) openSchemeWithParameters:(NSDictionary *)parameters callback:(OnePayCallback)callback;
